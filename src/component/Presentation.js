@@ -5,7 +5,6 @@ import fond1 from "../assests/fond1.jpg";
 import fond2 from "../assests/fond2.jpg";
 import fond3 from "../assests/fond3.jpg";
 import com from "../assests/celcom.jpg";
-import sc from "../assests/fond2.jpg";
 import sgg from "../assests/sgg.jpg"
 const Presentation = () => {
   return (
