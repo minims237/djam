@@ -1,0 +1,23 @@
+
+.cache{
+    display: none;
+}
+
+ .img{
+    margin-right: 30px;
+    height: 80vh;
+      object-position: 100% 10%;
+      object-fit: contain;
+ }
+ .actImg{
+     height: 40vh;
+ }
+@media only screen and (max-width: 768px) {
+    .actualite_contener{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+}

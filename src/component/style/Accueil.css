@@ -1,0 +1,35 @@
+
+.accueil_contener p{
+    background-color: #31e804;
+    color: white;
+    padding: 15px;
+    margin-top: 1px;
+    text-transform: capitalize;
+    font-size: 14;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+}
+.acc_img{
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin: 0px auto;
+}
+@media screen and (max-width:768px) {
+    .accueil_contener h1{
+        font-size: 12;
+        font-weight: 400;
+    }
+   .accueil_contener{
+       display: flex;
+       flex-direction: column-reverse;
+        max-height: 45vh;
+    }
+    .acc_img{
+        height: auto;
+        width: 100%;
+        position: relative;
+        margin: 0px auto;
+    }
+}

@@ -1,0 +1,139 @@
+.App {
+  background-color:white;
+  flex: 1;
+  font-family: "Roboto";
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.header__contener {
+  border-bottom: 2px solid #31e804;
+  background-color: white;
+  max-width: 100%;
+  position: fixed;
+  transform: 0.3s;
+  
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+.hamburger {
+  display: none;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 3px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  background-color: #31e804;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-item {
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #475569;
+}
+.nav-link:hover {
+  color: #31e804;;
+}
+.nav-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #31e804;
+}
+.nav-logo img{
+  width: 70px;
+  height: auto;
+}
+h2{
+  font-size: 16px;
+  font-weight: 400;
+}
+p{
+  font-size: 12px;
+}
+@media only screen and (max-width: 768px) {
+  .header__contener{
+  width: 100%;
+  }
+  .header__contener img{
+    width: 100%;
+  }
+  .App{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-menu {
+    position: fixed;
+    z-index: 3;
+    top: 3rem;
+    left: 0%;
+    padding-left: 10px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 2px;
+    text-align: left;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(124, 63, 63, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .header__contener .nav-menu {
+    display: none;
+  }
+  .header__contener:focus-within .nav-menu {
+    display: block;
+  }
+  .header__contener::after .nav-menu{
+    display: none;
+  }
+  .nav-logo img{
+    height: auto;
+    width: 55px;
+  }
+}div{
+  display: block;
+}
+button{
+  border-color: white;
+ background-color: white;
+}
