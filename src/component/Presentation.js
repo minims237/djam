@@ -37,21 +37,28 @@ const Presentation = () => {
             </ul>
           </p>
         </div>
-      </div>
-      <h2>les membres du bureau</h2>
+      </div><br></br>
+      <p>les membres du bureau</p>
       <div className="presentation_contener_member presentation_contener_cont">
         <div className="membres">
           <div className="membres_item">
             <img src={prsi} alt="prsi" />
             <section>
-              <h4>EVELE</h4>
+              <h4>M.EVELE</h4>
               <p>le president</p>
+            </section>
+          </div>
+          <div className="membres_item">
+            <img src={fond3} alt="com" />
+            <section>
+              <h4>M.ALLAHFI HENRY</h4>
+              <p>coofondateur</p>
             </section>
           </div>
           <div className="membres_item">
             <img src={sgg} className="center" alt="sg" />
             <section>
-              <h4>M'HATOUKOU</h4>
+              <h4>M.M'HATOUKOU</h4>
               <p>le secretaire generale</p>
             </section>
           </div>
@@ -59,41 +66,30 @@ const Presentation = () => {
             <img src={com} alt="com" />
             <section>
               <div>
-                <h4>MARAFA</h4>
+                <h4>M.MARAFA</h4>
               </div>
               <div>
-                {" "}
+                {" "} 
                 <p>le charge de com</p>
               </div>
             </section>
           </div>
-        </div>
-      </div>{" "}
-      <h2>les coofondateurs</h2>
-      <div className="department presentation_contener_cont">
-        <div className="membres">
+          <div className="membres">
           <div className="membres_item">
             <img src={fond1} alt="prsi" />
             <section>
               <h4>MATHIEUX</h4>
-              <p>coofondateur</p>
+              <p>Trésorier</p>
             </section>
           </div>
           <div className="membres_item">
             <img src={fond2} className="center" alt="sg" />
             <section>
               <h4>Dr ASSIDAKAI</h4>
-              <p>coofondateur</p>
+              <p>animateur culturel</p>
             </section>
           </div>
-          <div className="membres_item">
-            <img src={fond3} alt="com" />
-            <section>
-              <h4>ALLAHFI HENRY</h4>
-
-              <p>coofondateur</p>
-            </section>
-          </div>
+        </div>
         </div>
       </div>
     </div>
