@@ -52,7 +52,7 @@ const Presentation = () => {
             <img src={fond3} alt="com" />
             <section>
               <h4>M.ALLAHFI HENRY</h4>
-              <p>coofondateur</p>
+              <p>cofondateur</p>
             </section>
           </div>
           <div className="membres_item">
