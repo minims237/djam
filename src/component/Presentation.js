@@ -6,6 +6,7 @@ import fond2 from "../assests/fond2.jpg";
 import fond3 from "../assests/fond3.jpg";
 import com from "../assests/celcom.jpg";
 import sgg from "../assests/sgg.jpg"
+
 const Presentation = () => {
   return (
     <div className="presentation_contener">
@@ -27,13 +28,13 @@ const Presentation = () => {
             s’inscrivant dans des processus d'insertion sociale
             et/professionnelle. ainsi l'association oeuvre dans plusieurs
             domaine tel comme:
-            <ul>
-              <li>le domaine de la santé</li>
-              <li>le domaine de l'education</li>
-              <li>le domaine du sport et du loisir</li>
-              <li>le domaine de l’agriculture</li>
-              <li>le domaine de la paix et sécurité</li>
-              <li>le domaine l'entrepreneuriats</li>
+            <ul><b>
+              <li>❇️ le domaine de la santé</li>
+              <li>❇️ le domaine de l'education</li>
+              <li>❇️ le domaine du sport et du loisir</li>
+              <li>❇️ le domaine de l’agriculture</li>
+              <li>❇️ le domaine de la paix et sécurité</li>
+              <li>❇️ le domaine l'entrepreneuriats</li></b>
             </ul>
           </p>
         </div>

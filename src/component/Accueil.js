@@ -5,7 +5,6 @@ const Accueil=()=>{
         <div className='accueil_contener' >
             <p>dynamique des jeunes de l'arrondissement de maga</p>
             <img src={pro} className='acc_img' alt='pro'/>
-   
         </div>
     )
 }
