@@ -15,7 +15,7 @@ const Actualite = () => {
             <section>
               <div>
                 {" "}
-                <p>sensibilisation covid-19</p>
+                <p>la réunion du 14 Août 2021</p>
               </div>
             </section>
           </div>
